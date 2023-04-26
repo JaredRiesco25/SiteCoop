@@ -10,6 +10,7 @@ import { SectorAgricolaComponent } from './sector-agricola/sector-agricola.compo
 
 import { SectorUrbanoComponent } from './sector-urbano/sector-urbano.component';
 import { FooterComponent } from './footer/footer.component';
+import { CuidadoAnimalComponent } from './cuidado-animal/cuidado-animal.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FooterComponent } from './footer/footer.component';
     InicioComponent,
     SectorAgricolaComponent,
     SectorUrbanoComponent,
-    FooterComponent
+    FooterComponent,
+    CuidadoAnimalComponent
   ],
   imports: [
     BrowserModule,
