@@ -8,13 +8,19 @@ import { InicioComponent } from './inicio/inicio.component';
 import { SectorAgricolaComponent } from './sector-agricola/sector-agricola.component';
 
 
+import { SectorUrbanoComponent } from './sector-urbano/sector-urbano.component';
+import { FooterComponent } from './footer/footer.component';
+import { CuidadoAnimalComponent } from './cuidado-animal/cuidado-animal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     InicioComponent,
-    SectorAgricolaComponent
+    SectorAgricolaComponent,
+    SectorUrbanoComponent,
+    FooterComponent,
+    CuidadoAnimalComponent
   ],
   imports: [
     BrowserModule,
