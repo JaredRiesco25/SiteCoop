@@ -1,0 +1,12 @@
+.container
+{
+    background-image: url(../../assets/images/fondo.jpg);
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    box-sizing: border-box;
+    height: 130%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

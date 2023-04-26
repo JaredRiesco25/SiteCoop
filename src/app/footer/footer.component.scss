@@ -4,6 +4,11 @@ footer {
     bottom: 0;
 }
 
+a
+{
+    padding-left: 2%;
+}
+
 @media (max-height:800px) {
     footer {
         position: static;
