@@ -17,12 +17,13 @@
         display: flex;
         position: fixed;
 
-         background: rgb(33, 33, 33);
+         background: transparent;
          height: 12vh;
         width: 100%;
         top: 0;
         left: 0;
         z-index: 999;
+        
     }
     .Navbarn {
         width: 100%;
@@ -30,21 +31,23 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        
     }
     button{
         font-family: 'Raleway', sans-serif;
         color:white;
-        font-size: 15px;
+        font-size: 18px;
         margin-top: 0.5%;
         transition-duration: 0.4s;
         border: none;
         background-color: transparent;
         cursor: pointer;
+        font-weight: 600;
     }
-    button:focus{
+    .btn:focus{
         text-decoration: underline;
         text-decoration-style: double;
-
+        
     }
     
     img.logo {
