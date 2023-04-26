@@ -57,21 +57,26 @@
     backdrop-filter: blur(20px);
     color: white;
     color: white;
-    text-align: justify;
+    text-align: center;
     .column1 {
         float: right;
-        width: 50%;
+        width: 49%;
         padding: 20px;
-        margin-top: -36%;
+        margin-top: -24%;
         background-color: black;
-        height: 56.6vh;
+        height: 48.7vh;
       }
       .column2 {
         margin-left: 0%;
         width: 40%;
         img{
             width: 100%;
-            height: 2%;
+            height: 1%;
         }
       }
+}
+video{
+    margin-top: -1%;
+    width: 127.5%;
+    height: 120%;
 }
