@@ -9,6 +9,7 @@ import { SectorAgricolaComponent } from './sector-agricola/sector-agricola.compo
 
 
 import { SectorUrbanoComponent } from './sector-urbano/sector-urbano.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { SectorUrbanoComponent } from './sector-urbano/sector-urbano.component';
     NavbarComponent,
     InicioComponent,
     SectorAgricolaComponent,
-    SectorUrbanoComponent
+    SectorUrbanoComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
