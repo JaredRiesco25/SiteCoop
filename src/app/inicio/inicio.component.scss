@@ -1,5 +1,13 @@
+
 .container
 {
-    height: 100%;
-    margin-top: 7%;
+    background-image: url(../../assets/images/fondo.jpg);
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
