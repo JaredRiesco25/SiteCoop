@@ -8,7 +8,6 @@ a
 {
     padding-left: 2%;
 }
-
 @media (max-height:800px) {
     footer {
         position: static;
@@ -37,7 +36,7 @@ a
 
 .footer-distributed .footer-left {
     width: 30%;
-    margin-bottom: 10vh;
+    margin-bottom: 13vh;
 }
 
 .footer-distributed h3 {
@@ -69,14 +68,14 @@ a
     color: #8f9296;
     font-size: 14px;
     font-weight: normal;
-    text-align: center;
+    text-align: right;
 }
 
 /* Footer Center */
 
 .footer-distributed .footer-center {
     width: 35%;
-    margin-top: 10vh;
+    
 }
 
 .footer-distributed .footer-center i {
@@ -95,6 +94,7 @@ a
 .footer-distributed .footer-center i.fa-envelope {
     font-size: 17px;
     line-height: 38px;
+    margin-left: 20vh;
 }
 
 .footer-distributed .footer-center p {
@@ -129,6 +129,7 @@ a
     font-size: 13px;
     font-weight: normal;
     margin: 0;
+    text-align: justify;
 }
 
 .footer-distributed .footer-company-about span {
