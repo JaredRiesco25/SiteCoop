@@ -3,6 +3,22 @@ footer {
     position: fixed;
     bottom: 0;
 }
+.pdf
+{
+    color: #8f9296;
+    margin-left: 60vh;
+    margin-bottom: 4vh;
+    justify-content: center;
+    text-decoration: none;
+
+}
+.pdf2
+{
+    color: #8f9296;
+    text-decoration: none;
+    justify-content: center;
+
+}
 a
 {
     padding-left: 2%;
@@ -67,7 +83,8 @@ a
     color: #8f9296;
     font-size: 14px;
     font-weight: normal;
-    text-align: right;
+    text-align: center;
+    margin-top: 2vh;
 }
 
 /* Footer Center */
