@@ -15,7 +15,7 @@
     }
     .headerh {
         display: flex;
-        position: relative;
+        position: fixed;
         backdrop-filter: blur(5px);
         background-color: black;
         height: 12vh;
