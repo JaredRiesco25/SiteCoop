@@ -2,10 +2,15 @@
     height: auto;
     width: 100%;
     margin-top: -12vh;
+    div.img{
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
 }
-div.img{
-    width: 100%;
-}
+
+
 div.container{
     width: 100%;
     height: 66.5vh;
@@ -41,7 +46,6 @@ p.body{
 }
 .containerDown{
     width: 100%;
-    height: 66.5vh;
     flex-direction: column;
     display: flexbox;
     background-color: rebeccapurple;
