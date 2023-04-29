@@ -7,16 +7,18 @@ import { FooterComponent } from './footer/footer.component';
 import { CuidadoAnimalComponent } from './cuidado-animal/cuidado-animal.component';
 import { PrincipalComponent } from './principal/principal.component';
 import { ContactoComponent } from './contacto/contacto.component';
+import { ServiciosComponent } from './servicios/servicios.component';
 
 const routes: Routes = [
-  {path: '', redirectTo: '/inicio', pathMatch: 'full'}, //Redirigir en ruta vacía
+  {path: '', redirectTo: '/principal', pathMatch: 'full'}, //Redirigir en ruta vacía
   {path: 'inicio', component:InicioComponent},
   {path: 'sectoragro', component:SectorAgricolaComponent},
   {path: 'SectorUrbano', component:SectorUrbanoComponent},
   {path:'cuidadoAnimal', component:CuidadoAnimalComponent},
   {path: 'principal', component:PrincipalComponent},
   {path: 'contacto', component:ContactoComponent},
-  {path:  'footer', component:FooterComponent}
+  {path:  'footer', component:FooterComponent},
+  {path:  'servicios', component:ServiciosComponent}
 ];
 
 @NgModule({
