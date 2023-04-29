@@ -6,6 +6,7 @@ import { SectorUrbanoComponent } from './sector-urbano/sector-urbano.component';
 import { FooterComponent } from './footer/footer.component';
 import { CuidadoAnimalComponent } from './cuidado-animal/cuidado-animal.component';
 import { PrincipalComponent } from './principal/principal.component';
+import { ContactoComponent } from './contacto/contacto.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/inicio', pathMatch: 'full'}, //Redirigir en ruta vacía
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path: 'SectorUrbano', component:SectorUrbanoComponent},
   {path:'cuidadoAnimal', component:CuidadoAnimalComponent},
   {path: 'principal', component:PrincipalComponent},
+  {path: 'contacto', component:ContactoComponent},
   {path:  'footer', component:FooterComponent}
 ];
 
