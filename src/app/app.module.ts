@@ -14,6 +14,7 @@ import { CuidadoAnimalComponent } from './cuidado-animal/cuidado-animal.componen
 import { PrincipalComponent } from './principal/principal.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { ServiciosComponent } from './servicios/servicios.component';
+import { InicialComponent } from './inicial/inicial.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ServiciosComponent } from './servicios/servicios.component';
     CuidadoAnimalComponent,
     PrincipalComponent,
     ContactoComponent,
-    ServiciosComponent
+    ServiciosComponent,
+    InicialComponent
   ],
   imports: [
     BrowserModule,

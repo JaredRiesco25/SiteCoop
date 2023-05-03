@@ -8,6 +8,7 @@ import { CuidadoAnimalComponent } from './cuidado-animal/cuidado-animal.componen
 import { PrincipalComponent } from './principal/principal.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { ServiciosComponent } from './servicios/servicios.component';
+import { InicialComponent } from './inicial/inicial.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/principal', pathMatch: 'full'}, //Redirigir en ruta vacía
@@ -18,7 +19,8 @@ const routes: Routes = [
   {path: 'principal', component:PrincipalComponent},
   {path: 'contacto', component:ContactoComponent},
   {path:  'footer', component:FooterComponent},
-  {path:  'servicios', component:ServiciosComponent}
+  {path:  'servicios', component:ServiciosComponent},
+  {path:  'inicial', component:InicialComponent}
 ];
 
 @NgModule({
