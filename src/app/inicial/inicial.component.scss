@@ -41,7 +41,7 @@ button:hover{
     width: 50%;
 }
 .footer{
-    background-color: aqua;
+    margin-top: -6%;
 }
 .separador{
     margin-top: 53vh;
@@ -130,4 +130,38 @@ p.body{
     h3{
         text-align: left;
     }
+}
+.vision{
+    height: 40vh;
+    width: 76%;
+    margin-left: 12%;
+    color: white;
+}
+.vision:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  .columna {
+    float: left;
+    width: 33.33%;
+    padding: 1% 5%;
+    height: 300px; /* Should be removed. Only for demonstration */
+    background-color: black;
+  }
+  video{
+    width: 140%;
+    margin-left: -20%;
+    margin-top: 10%;
+  }
+  .contenedor{
+    background-color: black;
+    height: 46vh;
+  }
+  .sucursales
+{
+    background-color: black;
+    color: white;
+    text-align: center;
 }
