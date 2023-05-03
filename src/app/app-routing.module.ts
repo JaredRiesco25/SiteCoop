@@ -13,7 +13,7 @@ import { BoostComponent } from './boost/boost.component';
 import { Component } from '@angular/core';
 
 const routes: Routes = [
-  {path: '', redirectTo: '/principal', pathMatch: 'full'}, //Redirigir en ruta vacía
+  {path: '', redirectTo: '/inicial', pathMatch: 'full'}, //Redirigir en ruta vacía
   {path: 'inicio', component:InicioComponent},
   {path: 'sectoragro', component:SectorAgricolaComponent},
   {path: 'SectorUrbano', component:SectorUrbanoComponent},
