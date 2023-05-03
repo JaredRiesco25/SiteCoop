@@ -15,6 +15,7 @@ import { PrincipalComponent } from './principal/principal.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 import { InicialComponent } from './inicial/inicial.component';
+import { BoostComponent } from './boost/boost.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { InicialComponent } from './inicial/inicial.component';
     PrincipalComponent,
     ContactoComponent,
     ServiciosComponent,
-    InicialComponent
+    InicialComponent,
+    BoostComponent
   ],
   imports: [
     BrowserModule,

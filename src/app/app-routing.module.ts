@@ -9,6 +9,8 @@ import { PrincipalComponent } from './principal/principal.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 import { InicialComponent } from './inicial/inicial.component';
+import { BoostComponent } from './boost/boost.component';
+import { Component } from '@angular/core';
 
 const routes: Routes = [
   {path: '', redirectTo: '/principal', pathMatch: 'full'}, //Redirigir en ruta vacía
@@ -20,6 +22,7 @@ const routes: Routes = [
   {path: 'contacto', component:ContactoComponent},
   {path:  'footer', component:FooterComponent},
   {path:  'servicios', component:ServiciosComponent},
+  {path:  'boo', component:BoostComponent},
   {path:  'inicial', component:InicialComponent}
 ];
 
