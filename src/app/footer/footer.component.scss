@@ -23,6 +23,21 @@ a
 {
     padding-left: 2%;
 }
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 15vh; 
+    color: white;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 @media (max-height:800px) {
     footer {
         position: static;
@@ -38,7 +53,7 @@ a
     width: 100%;
     text-align: left;
     font: bold 16px sans-serif;
-    padding: 50px 50px 60px 50px;
+    padding: 20px 50px 60px 50px;
     margin-top: 80px;
 }
 
@@ -54,12 +69,15 @@ a
     margin-bottom: 13vh;
 }
 
-.footer-distributed h3 {
+/* .footer-distributed h3 {
     color: #ffffff;
     font: normal 36px 'Cookie', cursive;
     margin: 0;
 }
-
+ */
+ h5{
+    margin-left: 6%;
+ }
 
 .footer-distributed h3 span {
     color: #e0ac1c;
