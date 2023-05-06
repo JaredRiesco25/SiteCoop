@@ -1,15 +1,14 @@
 .container{
 
-    background-image: url(../../assets/images/fondoPrincipal.jpg);
+    background-image: url(../../assets/images/fondoinicial.webp);
     backdrop-filter: blur(20px);
     background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover;
-    backdrop-filter: blur(20px);
+    background-size: contain;
     box-sizing: border-box;
     height: 150%;
     width: 100%;
     position: absolute;
-    top: -35%;
+    top: 0%;
     left: 0;
 }
 button{
