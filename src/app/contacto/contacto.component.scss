@@ -85,9 +85,11 @@ p.body{
 }
 .vision{
     height: 40vh;
-    width: 76%;
-    margin-left: 12%;
+    width: 70%;
     color: black;
+    margin: auto;
+    border-top: solid 1px black;
+
 }
 .vision:after {
     content: "";
@@ -98,9 +100,9 @@ p.body{
   .columna {
     float: left;
     width: 50%;
-    padding: 1% 5%;
+    padding: 2% 10%;
     height: 300px; /* Should be removed. Only for demonstration */
-    background-color: gray;
+    background-color: white;
   }
   video{
     width: 140%;
@@ -110,8 +112,10 @@ p.body{
   .contenedor{
     background-color: white;
     height: 46vh;
-    width: 70%;
-    margin: auto;
+    width: 100%;
+    h1{
+        font-size: 30px;
+    }
   }
   .sucursales
 {
