@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-carousel',
@@ -8,15 +9,15 @@ import { Component, OnInit } from '@angular/core';
 export class CarouselComponent implements OnInit {
 
   currentIndex = 0;
+  constructor(private http: HttpClient) {
+
+    this.http.get('http://WS_TiendaCoop.innovativepartner.tech//Guardar/ObtenFavoritos/88').subscribe(data => {
+  console.log(data);
+});
+
+   }
 
   ngOnInit(): void {
-/*     setInterval(() => {
-      this.currentIndex = (this.currentIndex + 1) % 3;
-      console.log(this.currentIndex);
-    }, 1000); */
 
-    setInterval(() => {
-      this.currentIndex = (this.currentIndex + 1) % 3;
-    }, 3000);
   }
 }

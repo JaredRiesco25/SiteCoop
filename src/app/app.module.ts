@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { SectorAgricolaComponent } from './sector-agricola/sector-agricola.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 import { SectorUrbanoComponent } from './sector-urbano/sector-urbano.component';
@@ -36,7 +37,9 @@ import { CarouselComponent } from './carousel/carousel.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
