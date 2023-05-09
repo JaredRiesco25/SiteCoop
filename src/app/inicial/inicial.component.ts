@@ -16,5 +16,12 @@ export class InicialComponent implements OnInit {
       console.log(this.currentIndex);
     }, 5000);
   }
+  prevslide(): void {
+    this.currentIndex = (this.currentIndex === 0) ? 3 : this.currentIndex - 1;
+  }
+  
+  nextslide(): void {
+    this.currentIndex = (this.currentIndex === 3) ? 0 : this.currentIndex + 1;
+  }
 
 }
