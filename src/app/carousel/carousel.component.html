@@ -1,15 +1,5 @@
-<div class="carousel-container">
-    <div class="carousel-wrapper">
-      <div class="carousel-slide" [ngClass]="{'active': currentIndex === 0}">
-        <img src="../../assets/images/fondourbano.png" alt="First slide">
-      </div>
-      <div class="carousel-slide" [ngClass]="{'active': currentIndex === 1}">
-        <img src="../../assets/images/fondourbano.png" alt="Second slide">
-      </div>
-      <div class="carousel-slide" [ngClass]="{'active': currentIndex === 2}">
-        <img src="https://via.placeholder.com/800x400?text=Third+slide" alt="Third slide">
-      </div>
-    </div>
-    <a class="carousel-prev">&#10094;</a>
-    <a class="carousel-next">&#10095;</a>
-  </div>
+<p>{{ titulo }}</p>
+<p>{{ Subtitulo }}</p>
+<p>{{ texto }}</p>
+
+<img [src]="imagenBase64">
