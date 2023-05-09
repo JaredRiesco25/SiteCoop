@@ -11,6 +11,7 @@ import { ServiciosComponent } from './servicios/servicios.component';
 import { InicialComponent } from './inicial/inicial.component';
 import { BoostComponent } from './boost/boost.component';
 import { Component } from '@angular/core';
+import { CarouselComponent } from './carousel/carousel.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/inicial', pathMatch: 'full'}, //Redirigir en ruta vacía
@@ -23,6 +24,7 @@ const routes: Routes = [
   {path:  'footer', component:FooterComponent},
   {path:  'servicios', component:ServiciosComponent},
   {path:  'boo', component:BoostComponent},
+  { path: 'carousel', component: CarouselComponent },
   {path:  'inicial', component:InicialComponent}
 ];
 

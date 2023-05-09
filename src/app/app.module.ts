@@ -16,6 +16,7 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 import { InicialComponent } from './inicial/inicial.component';
 import { BoostComponent } from './boost/boost.component';
+import { CarouselComponent } from './carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { BoostComponent } from './boost/boost.component';
     ContactoComponent,
     ServiciosComponent,
     InicialComponent,
-    BoostComponent
+    BoostComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,

@@ -2,24 +2,24 @@
 
 <div class="container">
   <div class="Encabezado">
-    <h1>
-        
-       </h1>
-       <br>
-       <h3>
-       </h3>
-       <br>
-       <h3>
-       </h3>
-       <br>
-       <h3>
-       </h3>
-       <br>
-       <h3>
-    </h3>
-    <br>
-    <h3>
-    </h3>
+    <div class="carousel-container">
+      <div class="carousel-wrapper">
+        <div class="carousel-slide" [ngClass]="{'active': currentIndex === 0}">
+          <img src="../../assets/images/cop1.webp" alt="First slide">
+        </div>
+        <div class="carousel-slide" [ngClass]="{'active': currentIndex === 1}">
+          <img src="../../assets/images/cop2.webp" alt="First slide">
+        </div>
+        <div class="carousel-slide" [ngClass]="{'active': currentIndex === 2}">
+          <img src="../../assets/images/cop3.webp" alt="First slide">
+        </div>
+        <div class="carousel-slide" [ngClass]="{'active': currentIndex === 3}">
+          <img src="../../assets/images/cop4.webp" alt="First slide">
+        </div>
+      </div>
+      <a class="carousel-prev">&#10094;</a>
+      <a class="carousel-next">&#10095;</a>
+    </div>
    </div>
    <div class="separador">
 
