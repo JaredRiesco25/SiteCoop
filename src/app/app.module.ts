@@ -18,6 +18,7 @@ import { ServiciosComponent } from './servicios/servicios.component';
 import { InicialComponent } from './inicial/inicial.component';
 import { BoostComponent } from './boost/boost.component';
 import { CarouselComponent } from './carousel/carousel.component';
+import { BlogComponent } from './blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { CarouselComponent } from './carousel/carousel.component';
     ServiciosComponent,
     InicialComponent,
     BoostComponent,
-    CarouselComponent
+    CarouselComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,

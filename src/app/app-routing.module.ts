@@ -10,8 +10,9 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 import { InicialComponent } from './inicial/inicial.component';
 import { BoostComponent } from './boost/boost.component';
-import { Component } from '@angular/core';
 import { CarouselComponent } from './carousel/carousel.component';
+import { NotfoundComponent } from './notfound/notfound.component';
+import { BlogComponent } from './blog/blog.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/inicial', pathMatch: 'full'}, //Redirigir en ruta vacía
@@ -19,13 +20,16 @@ const routes: Routes = [
   {path: 'sectoragro', component:SectorAgricolaComponent},
   {path: 'SectorUrbano', component:SectorUrbanoComponent},
   {path:'cuidadoAnimal', component:CuidadoAnimalComponent},
-  {path: 'principal', component:PrincipalComponent},
-  {path: 'contacto', component:ContactoComponent},
+/*   {path: 'principal', component:PrincipalComponent},
+ */  {path: 'contacto', component:ContactoComponent},
   {path:  'footer', component:FooterComponent},
   {path:  'servicios', component:ServiciosComponent},
   {path:  'boo', component:BoostComponent},
   { path: 'carousel', component: CarouselComponent },
-  {path:  'inicial', component:InicialComponent}
+  {path:  'inicial', component:InicialComponent},
+  {path:'blog', component:BlogComponent},
+  {path:'**',component:NotfoundComponent}
+
 ];
 
 @NgModule({
