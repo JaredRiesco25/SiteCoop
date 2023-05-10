@@ -13,6 +13,7 @@ import { BoostComponent } from './boost/boost.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { BlogComponent } from './blog/blog.component';
+import { LaboratorioComponent } from './laboratorio/laboratorio.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/inicial', pathMatch: 'full'}, //Redirigir en ruta vacía
@@ -27,6 +28,7 @@ const routes: Routes = [
   {path:  'boo', component:BoostComponent},
   { path: 'carousel', component: CarouselComponent },
   {path:  'inicial', component:InicialComponent},
+  {path:  'laboratorio', component:LaboratorioComponent},
   {path:'blog', component:BlogComponent},
   {path:'**',component:NotfoundComponent}
 

@@ -19,6 +19,7 @@ import { InicialComponent } from './inicial/inicial.component';
 import { BoostComponent } from './boost/boost.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { BlogComponent } from './blog/blog.component';
+import { LaboratorioComponent } from './laboratorio/laboratorio.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { BlogComponent } from './blog/blog.component';
     InicialComponent,
     BoostComponent,
     CarouselComponent,
-    BlogComponent
+    BlogComponent,
+    LaboratorioComponent
   ],
   imports: [
     BrowserModule,
