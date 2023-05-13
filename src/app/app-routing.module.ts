@@ -17,17 +17,17 @@ import { LaboratorioComponent } from './laboratorio/laboratorio.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/inicial', pathMatch: 'full'}, //Redirigir en ruta vacía
-  {path: 'inicio', component:InicioComponent},
-  {path: 'sectoragro', component:SectorAgricolaComponent},
-  {path: 'SectorUrbano', component:SectorUrbanoComponent},
-  {path:'cuidadoAnimal', component:CuidadoAnimalComponent},
+/*   {path: 'inicio', component:InicioComponent},
+ */  {path: 'sectoragro', component:SectorAgricolaComponent},
+/*   {path: 'SectorUrbano', component:SectorUrbanoComponent},
+ */  {path:'cuidadoAnimal', component:CuidadoAnimalComponent},
 /*   {path: 'principal', component:PrincipalComponent},
  */  {path: 'contacto', component:ContactoComponent},
-  {path:  'footer', component:FooterComponent},
-  {path:  'servicios', component:ServiciosComponent},
-  {path:  'boo', component:BoostComponent},
-  { path: 'carousel', component: CarouselComponent },
-  {path:  'inicial', component:InicialComponent},
+/*   {path:  'footer', component:FooterComponent},
+ */  {path:  'servicios', component:ServiciosComponent},
+/*   {path:  'boo', component:BoostComponent},
+ *//*   { path: 'carousel', component: CarouselComponent },
+ */  {path:  'inicial', component:InicialComponent},
   {path:  'laboratorio', component:LaboratorioComponent},
   {path:'blog', component:BlogComponent},
   {path:'**',component:NotfoundComponent}
