@@ -14,7 +14,7 @@ export class InicialComponent implements OnInit {
       setInterval(() => {
       this.currentIndex = (this.currentIndex + 1) % 4;
       console.log(this.currentIndex);
-    }, 5000);
+    }, 8400);
   }
   prevslide(): void {
     this.currentIndex = (this.currentIndex === 0) ? 3 : this.currentIndex - 1;
