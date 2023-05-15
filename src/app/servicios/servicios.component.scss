@@ -109,3 +109,80 @@ p.body2{
 video{
     width: 100%;
 }
+
+@media (max-width: 768px) {
+  .container {
+    height: 150%;
+    width: 100%;
+    position: absolute;
+    top: -35%;
+    left: 0;
+}
+
+button {
+    border: solid 2px black;
+    color: black;
+    background-color: white;
+    width: 20%;
+    height: 10%;
+    margin-left: 40%;
+    margin-top: 5%;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+button:hover {
+    color: black;
+    background-color: rgb(199, 199, 199);
+    border: solid 2px black;
+    cursor: pointer;
+}
+
+.Encabezado {
+    backdrop-filter: blur(2px);
+    margin-top: 52vh;
+    color: black;
+    height: 10vh;
+    text-align: center;
+    width: 100%;
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 17px;
+        font-weight: 400;
+    }
+}
+
+.footer {
+    height: 30px;
+    margin-top: 20vh;
+}
+
+.separador {
+    margin-top: 20vh;
+}
+
+.iconos {
+    width: 100%;
+    height: 8vh;
+    margin: auto;
+    display: flex;
+}
+
+.column {
+    width: 100%;
+    height: auto;
+    color: black;
+    background-color: white;
+
+    h1 {
+        margin-top: 5vh;
+    }
+  }
+
+    
+}
