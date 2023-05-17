@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,ElementRef  } from '@angular/core';
 
 @Component({
   selector: 'app-inicial',
@@ -7,21 +7,35 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InicialComponent implements OnInit {
   currentIndex = 0;
+  videos: string[] = ['../../assets/Videos/carrusel11.mp4', '../../assets/Videos/carrusel22.mp4', '../../assets/Videos/carrusel33.mp4', '../../assets/Videos/carrusel44.mp4'];
+  constructor(private elRef: ElementRef) { }
+  videoSeleccionado: number = this.currentIndex;
 
-  constructor() { }
+  cambiarVideo(): void {
+    const videoElement = document.getElementById('miVideo') as HTMLVideoElement;
+    console.log(this.currentIndex);
+
+    videoElement.src = `assets/${this.videos[this.currentIndex]}`;
+    videoElement.load();
+    videoElement.play();
+  }
 
   ngOnInit(): void {
-      setInterval(() => {
+    setInterval(() => {
+      this.cambiarVideo();
       this.currentIndex = (this.currentIndex + 1) % 4;
-      console.log(this.currentIndex);
-    }, 8400);
+    }, 8100);;
   }
+
   prevslide(): void {
     this.currentIndex = (this.currentIndex === 0) ? 3 : this.currentIndex - 1;
+
+    this.cambiarVideo();
   }
   
   nextslide(): void {
     this.currentIndex = (this.currentIndex === 3) ? 0 : this.currentIndex + 1;
+    
+    this.cambiarVideo();
   }
-
 }

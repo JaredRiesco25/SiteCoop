@@ -33,6 +33,9 @@ button:hover{
     width: 100%;
     height: 120vh;
     video{
+      width: 35%;
+    }
+    img{
       width: 71%;
     }
 }
@@ -298,7 +301,7 @@ input.mensaje,input.email{
 
 
 .carousel-slide img {
-  width: 100%;
+  width: 200%;
 }
 
 .carousel-prev,
@@ -334,4 +337,4 @@ input.mensaje,input.email{
 }
 .columnd:hover{
   cursor: pointer;
-}
+}       
