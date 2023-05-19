@@ -1,6 +1,5 @@
 /* The footer is fixed to the bottom of the page */
 footer {
-    position: fixed;
     bottom: 0;
 }
 .pdf
@@ -206,7 +205,7 @@ a
     .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
         display: block;
         width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 40px; 
         text-align: center;
     }
     .footer-distributed .footer-center i {
