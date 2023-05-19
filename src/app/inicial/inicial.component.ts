@@ -1,5 +1,5 @@
 import { Component, OnInit,ElementRef  } from '@angular/core';
-
+import { OrientacionService  } from '../orientacion.service';
 @Component({
   selector: 'app-inicial',
   templateUrl: './inicial.component.html',
@@ -8,7 +8,7 @@ import { Component, OnInit,ElementRef  } from '@angular/core';
 export class InicialComponent implements OnInit {
   currentIndex = 0;
   videos: string[] = ['../../assets/Videos/carrusel11.mp4', '../../assets/Videos/carrusel22.mp4', '../../assets/Videos/carrusel33.mp4', '../../assets/Videos/carrusel44.mp4'];
-  constructor(private elRef: ElementRef) { }
+  constructor(private elRef: ElementRef,private orientationService: OrientacionService) { }
   videoSeleccionado: number = this.currentIndex;
 
   cambiarVideo(): void {
@@ -21,6 +21,8 @@ export class InicialComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.orientationService.lockOrientation();
+
     setInterval(() => {
       this.cambiarVideo();
       this.currentIndex = (this.currentIndex + 1) % 4;
