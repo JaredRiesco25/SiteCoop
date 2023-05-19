@@ -88,7 +88,10 @@ p.body{
     clear: both;
     
   }
-  .columna {
+  .columna1{
+    border-right: solid 1px black;
+  }
+  .columna,.columna1 {
     float: left;
     width: 50%;
     padding: 2% 10%;
@@ -109,7 +112,7 @@ p.body{
     text-align: center;
 }
 
-.renglones {
+.renglones,.renglones2 {
     margin-top: 2vh;
     margin-bottom: 1vh;
     float: left;
@@ -117,6 +120,10 @@ p.body{
     width: 50%;
     padding: 12vh 20vh;
     height: 36vh; 
+    h1{
+      text-align: left;
+      font-weight: 600;
+    }
   }
   
   /* Clear floats after the columns */
@@ -135,7 +142,7 @@ p.body{
   }
   
   .timeline ul {
-.normal::after {
+.normal::after,.normal4::after {
     content: '';
     position: absolute;
     left: 50%;
@@ -146,6 +153,7 @@ p.body{
     border-radius: 50%;
     background: inherit;
   }
+  
   .normal3::after {
     content: '';
     position: absolute;
@@ -181,6 +189,7 @@ p.body{
     display: table;
     clear: both;
   }
+ 
   .fechas {
     float: left;
     width: 40%;
@@ -188,6 +197,24 @@ p.body{
         width: 100%;
         text-align: left;
         padding-left: 55%;
+    }
+    .fecha1{
+      margin-top: 9vh;
+    }
+    .fecha2{
+      margin-top: 20.5vh;
+    }
+    .fecha3{
+      margin-top: 16vh;
+    }
+    .fecha4{
+      margin-top: 17.5vh;
+    }
+    .fecha5{
+      margin-top: 14.5vh;
+    }
+    .fecha6{
+      margin-top: 32.2vh;
     }
   }
   .timeline {
@@ -200,4 +227,268 @@ p.body{
     background-color: gray;
     height: 9vh;
     position:absolute; z-index:1; background-color:#FFFFFF;
+}
+
+@media (max-width: 480px) {
+  .container {
+    background-image: url(../../assets/images/fondonosotros.webp);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    position: absolute;
+    background-size: contain;
+    width: 100%;
+    top: 15vh;
+    left: 0;
+}
+
+button {
+    border: solid 2px white;
+    color: white;
+    background-color: transparent;
+    width: 80%;
+    height: 10%;
+    margin-top: 5%;
+    transition-duration: 0.4s;
+    font-weight: bold;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+    border: solid 2px black;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: -6%;
+}
+
+.separador {
+    margin-top: 40vh;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 650;
+    text-align: center;
+}
+
+h3 {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: justify;
+}
+
+p.Title {
+    text-align: center;
+    margin-left: 8%;
+    margin-top: 2%;
+    font-size: 45px;
+    font-weight: 600;
+    color: black;
+}
+
+p.SubTitle {
+    margin-left: 8%;
+    font-size: 60px;
+    font-weight: 500;
+    color: black;
+}
+
+p.body {
+    padding: 40px 20px;
+    text-align: justify;
+    color: black;
+}
+
+.nosotros {
+    background-color: white;
+    width: 90%;
+    margin-top: -23vh;
+    padding: 2% 6%;
+    text-align: center;
+    color: black;
+}
+
+.vision {
+    height: auto;
+    width: 90%;
+    color: black;
+    margin: auto;
+    border-top: solid 1px black;
+}
+
+.vision:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.columna,.columna1 {
+    float: none;
+    width: 100%;
+    padding: 2% 10%;
+    height: auto;
+    border: none;
+}
+.invisible
+{
+    width: 100%;
+    height: 7vh;
+    position:absolute; z-index:1; background-color:white;
+}
+
+.fechas {
+  float: left;
+  width: 40%;
+  h3{
+      width: 99%;
+      text-align: left;
+      padding-left: 55%;
+    }
+  .fecha1{
+    margin-top: 8vh;
+  }
+  .fecha2{
+    margin-top: 18vh;
+  }
+  .fecha3{
+    margin-top: 22vh;
+  }
+  .fecha4{
+    margin-top: 24.5vh;
+  }
+  .fecha5{
+    margin-top: 20vh;
+  }
+  .fecha6{
+    margin-top: 38vh;
+  }
+}  
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 1px;
+  padding-top: 50px;
+  background: black;
+}
+
+.timeline ul {
+.normal::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom:61%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: inherit;
+}
+.normal2::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom:61%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: inherit;
+}
+.normal3::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom:65%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: inherit;
+}
+.normal4::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom:58%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: inherit;
+}
+.normal5::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom:79%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: inherit;
+}
+.normal6::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom:48%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: inherit;
+}
+
+
+}
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 27vh;
+  padding: 15px;
+}
+
+.linea::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.timeline {
+  float: left;
+  width: 60%;
+}
+.renglones {
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  float: left;
+  width: 30%;
+  padding: 1.5vh 2vh;
+  height: 10vh;
+  h1{
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+  } 
+}
+.renglones2{
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  width: 70%;
+  padding: 2vh 5vh;
+  height: 10vh;
+  background-size: contain;
+}
+
+/* Clear floats after the columns */
+.filas:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 }
