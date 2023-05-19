@@ -28,9 +28,9 @@ export class BlogComponent implements OnInit {
       this.titulo = this.ImageUrl[1].Clave;
       this.Subtitulo = this.ImageUrl[1].Nombre;
 
-      this.imagenBase642= 'data:image/png;base64,'+this.ImageUrl[2].Imagen;
-      this.titulo2 = this.ImageUrl[2].Clave;
-      this.Subtitulo2 = this.ImageUrl[2].Nombre;
+      this.imagenBase642= 'data:image/png;base64,'+this.ImageUrl[4].Imagen;
+      this.titulo2 = this.ImageUrl[4].Clave;
+      this.Subtitulo2 = this.ImageUrl[4].Nombre;
 
       this.imagenBase643= 'data:image/png;base64,'+this.ImageUrl[3].Imagen;
       this.titulo3 = this.ImageUrl[3].Clave;
