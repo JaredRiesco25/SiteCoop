@@ -142,40 +142,72 @@ p.body{
   }
   
   .timeline ul {
-.normal::after,.normal4::after {
-    content: '';
-    position: absolute;
-    left: 50%;
-    bottom:40%;
-    transform: translateX(-50%);
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: inherit;
-  }
-  
-  .normal3::after {
-    content: '';
-    position: absolute;
-    left: 50%;
-    bottom:65%;
-    transform: translateX(-50%);
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: inherit;
-  }
-  .normal2::after {
-    content: '';
-    position: absolute;
-    left: 50%;
-    bottom:32%;
-    transform: translateX(-50%);
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: inherit;
-  }
+.normal::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom:40%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: inherit;
+}
+.normal2::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom:42%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: inherit;
+}
+.normal3::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom:48%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: inherit;
+}
+.normal4::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom:41%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: inherit;
+}
+.normal5::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom:68%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: inherit;
+}
+.normal6::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom:32%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: inherit;
+}
   }
   .timeline ul li div {
     position: relative;
@@ -199,22 +231,22 @@ p.body{
         padding-left: 55%;
     }
     .fecha1{
-      margin-top: 9vh;
+      margin-top: 11vh;
     }
     .fecha2{
-      margin-top: 20.5vh;
+      margin-top: 19vh;
     }
     .fecha3{
-      margin-top: 16vh;
+      margin-top: 20vh;
     }
     .fecha4{
-      margin-top: 17.5vh;
+      margin-top: 22vh;
     }
     .fecha5{
-      margin-top: 14.5vh;
+      margin-top: 20vh;
     }
     .fecha6{
-      margin-top: 32.2vh;
+      margin-top: 38vh;
     }
   }
   .timeline {
@@ -227,6 +259,10 @@ p.body{
     background-color: gray;
     height: 9vh;
     position:absolute; z-index:1; background-color:#FFFFFF;
+}
+.destacadas{
+  text-align: left; padding-left: 21%;
+  
 }
 
 @media (max-width: 480px) {
@@ -309,12 +345,15 @@ p.body {
     text-align: center;
     color: black;
 }
+.contenedor{
+  height: 55vh;
+  width: 100%;
 
+}
 .vision {
-    height: auto;
-    width: 90%;
+    height: 50vh;
+    width: 100%;
     color: black;
-    margin: auto;
     border-top: solid 1px black;
 }
 
@@ -323,8 +362,13 @@ p.body {
     display: table;
     clear: both;
 }
-
-.columna,.columna1 {
+.columna{
+  float: none;
+  width: 100%;
+  padding: 2% 10%;
+  height: auto;
+}
+.columna1 {
     float: none;
     width: 100%;
     padding: 2% 10%;
@@ -337,7 +381,10 @@ p.body {
     height: 7vh;
     position:absolute; z-index:1; background-color:white;
 }
-
+.destacadas{
+  text-align: left; padding-left: 13%;
+  
+}
 .fechas {
   float: left;
   width: 40%;
@@ -347,22 +394,22 @@ p.body {
       padding-left: 55%;
     }
   .fecha1{
-    margin-top: 8vh;
+    margin-top: 9vh;
   }
   .fecha2{
-    margin-top: 18vh;
+    margin-top: 23vh;
   }
   .fecha3{
-    margin-top: 22vh;
+    margin-top: 27.5vh;
   }
   .fecha4{
-    margin-top: 24.5vh;
+    margin-top: 32.5vh;
   }
   .fecha5{
-    margin-top: 20vh;
+    margin-top: 26vh;
   }
   .fecha6{
-    margin-top: 38vh;
+    margin-top: 47.5vh;
   }
 }  
 
@@ -472,7 +519,7 @@ p.body {
   h1{
     text-align: left;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 11px;
   } 
 }
 .renglones2{
