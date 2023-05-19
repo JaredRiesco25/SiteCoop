@@ -2,6 +2,9 @@
 footer {
     bottom: 0;
 }
+.avisos{
+    text-decoration: none; color: black;
+}
 .pdf
 {
     color: #8f9296;
@@ -9,6 +12,9 @@ footer {
     justify-content: center;
     text-decoration: none;
 
+}
+.redessociales{
+    margin-top: 2vh; margin-left: 8vh;
 }
 .pdf2
 {
@@ -23,6 +29,26 @@ a
     padding-left: 3%;
 }
 /* Create three equal columns that floats next to each other */
+.column3{
+    float: left;
+    width: 33.33%;
+    height: 15vh; 
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    padding: 0% 6%;    
+    line-height: 1.5;
+}
+.column2 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 15vh; 
+    color: black;
+    line-height: 2;
+    font-size: 15px;
+    text-align: center;
+  }
 .column {
     float: left;
     width: 33.33%;
@@ -31,6 +57,7 @@ a
     color: black;
     line-height: 2;
     font-size: 15px;
+    text-align: center;
   }
   
   /* Clear floats after the columns */
@@ -39,7 +66,7 @@ a
     display: table;
     clear: both;
   }
-@media (max-height:800px) {
+/* @media (max-height:800px) {
     footer {
         position: static;
     }
@@ -47,7 +74,7 @@ a
         padding-top: 40px;
     }
 }
-
+ */
 .footer-distributed {
     background-color: white;
     box-sizing: border-box;
@@ -200,7 +227,7 @@ a
 .footer-links a:hover {
     color: #3F71EA;
 }
-
+/* 
 @media (max-width: 880px) {
     .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
         display: block;
@@ -210,5 +237,55 @@ a
     }
     .footer-distributed .footer-center i {
         margin-left: 0;
+
     }
-}   
+}    */
+
+@media (max-width: 480px) {
+    .footer-distributed {
+        box-sizing: border-box;
+        width: 100%;
+        text-align: left;
+        font: bold 16px sans-serif;
+        padding: 0px 0px 0px 0px;
+        margin-top: 80px;
+        box-shadow: 10px 10px 5px 15px #aaaaaa;
+    
+    }
+    .row{
+        padding: 0% 0% 0% 0%;
+        margin-left: 0vh;
+        
+    }
+    .redessociales{
+        margin-top: 0vh; margin-left: 0%;
+    }
+    .column{
+        width: 100%;
+        height: 60%; 
+
+    }
+    .column3{
+        float: left;
+        width: 50%;
+        padding: 0% 0%;
+        height: 60%; 
+        color: black;
+        line-height: 1.7;
+        font-size: 10px;
+    }
+    .column2 {
+        float: left;
+        width: 50%;
+        padding: 0% 0%;
+        height: 60%; 
+        color: black;
+        line-height: 2;
+        font-size: 10px;
+    }
+        .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+}
