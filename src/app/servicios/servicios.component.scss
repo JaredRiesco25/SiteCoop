@@ -105,7 +105,7 @@ button:hover{
     display: flex;
     height: 10vh; 
 }
-.column1 {
+.column1,.columniA,.columniB,.column1iA,.column1iB {
     float: left;
     width: 50%;
     height: 73vh; /* Should be removed. Only for demonstration */
@@ -120,7 +120,7 @@ button:hover{
     }
 
   }
-.column {
+.column,.columni {
     float: left;
     width: 50%;
     height: 70vh; /* Should be removed. Only for demonstration */
@@ -136,7 +136,6 @@ button:hover{
 
   }
   
-  /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
@@ -305,17 +304,26 @@ button:hover {
     display: table;
     clear: both;
   }
-.column,.column1 {
+.column,.column1{
     width: 100%;
     height: auto;
     color: black;
     background-color: white;
+    border: 1px solid green;
 
     h1 {
         margin-top: 5vh;
     }
   }
+  .columni,.column1i {
+    width: 100%;
+    height: 50vh; /* Should be removed. Only for demonstration */
+    background-size: cover;
+    background-color: white;
+    border: 1px solid green;
+    margin-top: 3vh;
 
+  }
     
 }
 .scroll-effect {
