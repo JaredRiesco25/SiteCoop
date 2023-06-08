@@ -24,7 +24,7 @@ const routes: Routes = [
 /*   {path: 'principal', component:PrincipalComponent},
  */  {path: 'contacto', component:ContactoComponent},
 /*   {path:  'footer', component:FooterComponent},
- */  {path:  'servicios', component:ServiciosComponent},
+ */  {path:  'servicioscoop', component:ServiciosComponent},
 /*   {path:  'boo', component:BoostComponent},
  *//*   { path: 'carousel', component: CarouselComponent },
  */  {path:  'inicial', component:InicialComponent},
