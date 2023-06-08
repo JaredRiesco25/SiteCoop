@@ -4,7 +4,18 @@
   <div class="Encabezado">
     <div class="carousel-container">
       <div class="carousel-wrapper">
-        <video #videoPlayer id="miVideo" autoplay muted></video>
+        <div class="carousel-slide" [ngClass]="{'active': currentIndex === 0}">
+          <img src="../../assets/images/cop1.webp" alt="First slide">
+        </div>
+        <div class="carousel-slide" [ngClass]="{'active': currentIndex === 1}">
+          <img src="../../assets/images/cop2.webp" alt="First slide">
+        </div>
+        <div class="carousel-slide" [ngClass]="{'active': currentIndex === 2}">
+          <img src="../../assets/images/cop3.webp" alt="First slide">
+        </div>
+        <div class="carousel-slide" [ngClass]="{'active': currentIndex === 3}">
+          <img src="../../assets/images/cop4.webp" alt="First slide">
+        </div>
       </div>
       <a class="carousel-prev" (click)="prevslide()">&#10094;</a>
       <a class="carousel-next" (click)="nextslide()">&#10095;</a>
@@ -70,7 +81,7 @@
 
         </h3>
         <br>
-        <a href="http://storeca.innovativepartner.tech/CoopStore">
+        <a href="https://store.cooplaguna.mx">
           <button class="btn">Más</button>
       </a>
       </div>
@@ -106,42 +117,42 @@
     </h1>
     <br>
       <div class="iconosDepartamentos">
-          <div class="columnd1" style="background-image: url(../../assets/images/iconos\ departementos/ferre.jpg); background-size: cover;">
+          <div class="columnd" style="margin-left: 4vh ; background-image: url(../../assets/images/iconos\ departementos/ferre.jpg); background-size: contain;">
           
           </div>
-          <div class="columnd" style="background-image: url(../../assets/images/iconos\ departementos/botas.jpg); background-size: cover;">
+          <div class="columnd" style="background-image: url(../../assets/images/iconos\ departementos/botas.jpg); background-size: contain;">
           
           </div>
-          <div class="columnd" style="background-image: url(../../assets/images/iconos\ departementos/herra.jpg); background-size: cover;">
+          <div class="columnd" style="background-image: url(../../assets/images/iconos\ departementos/herra.jpg); background-size: contain;">
           
           </div>
-          <div class="columnd" style="background-image: url(../../assets/images/iconos\ departementos/agro.jpg); background-size: cover;">
+          <div class="columnd" style="background-image: url(../../assets/images/iconos\ departementos/agro.jpg); background-size: contain;">
          
           </div>
-          <div class="columnd" style="background-image: url(../../assets/images/iconos\ departementos/vet.jpg); background-size: cover;">
+          <div class="columnd" style="background-image: url(../../assets/images/iconos\ departementos/vet.jpg); background-size: contain;">
         
           </div>
-          <div class="columnd" style="background-image: url(../../assets/images/iconos\ departementos/sem.jpg); background-size: cover;">
+          <div class="columnd" style="background-image: url(../../assets/images/iconos\ departementos/sem.jpg); background-size: contain;">
             
           </div>
-          <div class="columnd" style="background-image: url(../../assets/images/iconos\ departementos/labo.jpg); background-size: cover;">
+          <div class="columnd" style="background-image: url(../../assets/images/iconos\ departementos/labo.jpg); background-size: contain;">
             
           </div>
-          <div class="columnd" style="background-image: url(../../assets/images/iconos\ departementos/fert.jpg); background-size: cover;">
+          <div class="columnd" style="background-image: url(../../assets/images/iconos\ departementos/fert.jpg); background-size: contain;">
             
           </div>
-          <div class="columnd" style="background-image: url(../../assets/images/iconos\ departementos/viv.jpg); background-size: cover;">
+          <div class="columnd" style="background-image: url(../../assets/images/iconos\ departementos/viv.jpg); background-size: contain;">
             
           </div>
       </div>
-    <a href="http://storeca.innovativepartner.tech/CoopStore">
+    <a href="https://store.cooplaguna.mx">
       <button class="btn">Comprar en linea</button>
   </a>
 </div>
 <hr>
   <div class="contenedor">
     
-        <video class="videocoop" src="../../assets/Videos/InstCorto.mp4"controls muted loop></video>  
+        <video src="../../assets/Videos/InstCorto.mp4"controls  autoplay muted loop></video>  
     
   </div>
 
