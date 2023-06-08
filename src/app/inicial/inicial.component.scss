@@ -329,6 +329,7 @@
     display: table;
     clear: both;
   }
+
   .columnd1 {
     float: left;
     width: 10%;
@@ -336,18 +337,14 @@
     height: 21vh; /* Should be removed. Only for demonstration */
     margin-left: 4%;
   }
-  .columnd1:hover{
-    cursor: pointer;
-  }  
+
   .columnd {
     float: left;
     width: 10%;
     margin-left: 1vh;
     height: 21vh; /* Should be removed. Only for demonstration */
   }
-  .columnd:hover{
-    cursor: pointer;
-  }       
+       
   
   
   
