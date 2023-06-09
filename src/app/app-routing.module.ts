@@ -14,6 +14,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { BlogComponent } from './blog/blog.component';
 import { LaboratorioComponent } from './laboratorio/laboratorio.component';
+import { FerreteriaComponent } from './ferreteria/ferreteria.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/inicial', pathMatch: 'full'}, //Redirigir en ruta vacía
@@ -30,6 +31,7 @@ const routes: Routes = [
  */  {path:  'inicial', component:InicialComponent},
   {path:  'laboratorio', component:LaboratorioComponent},
   {path:'blog', component:BlogComponent},
+  {path:'ferreteria', component:FerreteriaComponent},
   {path:'**',component:NotfoundComponent}
 
 ];
