@@ -15,6 +15,12 @@ import { NotfoundComponent } from './notfound/notfound.component';
 import { BlogComponent } from './blog/blog.component';
 import { LaboratorioComponent } from './laboratorio/laboratorio.component';
 import { FerreteriaComponent } from './ferreteria/ferreteria.component';
+import { MascotasComponent } from './mascotas/mascotas.component';
+import { BoutiqueComponent } from './boutique/boutique.component';
+import { FertilizanteComponent } from './fertilizante/fertilizante.component';
+import { ViveroComponent } from './vivero/vivero.component';
+import { LaboratorioDepartamentoComponent } from './laboratorio-departamento/laboratorio-departamento.component';
+
 
 const routes: Routes = [
   {path: '', redirectTo: '/inicial', pathMatch: 'full'}, //Redirigir en ruta vacía
@@ -32,6 +38,11 @@ const routes: Routes = [
   {path:  'laboratorio', component:LaboratorioComponent},
   {path:'blog', component:BlogComponent},
   {path:'ferreteria', component:FerreteriaComponent},
+  {path:'fertilizante', component:FertilizanteComponent},
+  {path:'mascotas', component:MascotasComponent},
+  {path:'boutique', component:BoutiqueComponent},
+  {path:'laboratorioDepartamento', component:LaboratorioDepartamentoComponent},
+  {path:'vivero', component:ViveroComponent},
   {path:'**',component:NotfoundComponent}
 
 ];

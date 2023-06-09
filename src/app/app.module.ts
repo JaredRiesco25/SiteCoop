@@ -21,6 +21,11 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { BlogComponent } from './blog/blog.component';
 import { LaboratorioComponent } from './laboratorio/laboratorio.component';
 import { FerreteriaComponent } from './ferreteria/ferreteria.component';
+import { BoutiqueComponent } from './boutique/boutique.component';
+import { FertilizanteComponent } from './fertilizante/fertilizante.component';
+import { ViveroComponent } from './vivero/vivero.component';
+import { LaboratorioDepartamentoComponent } from './laboratorio-departamento/laboratorio-departamento.component';
+import { MascotasComponent } from './mascotas/mascotas.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +44,12 @@ import { FerreteriaComponent } from './ferreteria/ferreteria.component';
     CarouselComponent,
     BlogComponent,
     LaboratorioComponent,
-    FerreteriaComponent
+    FerreteriaComponent,
+    BoutiqueComponent,
+    FertilizanteComponent,
+    ViveroComponent,
+    LaboratorioDepartamentoComponent,
+    MascotasComponent
   ],
   imports: [
     BrowserModule,

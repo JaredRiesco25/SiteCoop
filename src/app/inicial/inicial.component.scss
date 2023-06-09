@@ -346,6 +346,9 @@
       margin-left: 4%;
     }
   }
+  .columnd:hover,.columnd1:hover,.columnd2:hover{
+    cursor: pointer;
+  }
 
   .columnd,.columnd2 {
     float: left;
