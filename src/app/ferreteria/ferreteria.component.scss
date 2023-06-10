@@ -14,7 +14,7 @@
         font-weight: 400;
     }
 }
-.column1 {
+.column1a,.column1b {
     float: left;
     width: 50%;
     height: 73vh; /* Should be removed. Only for demonstration */
@@ -26,6 +26,12 @@
     h3{
         text-align: justify;
     }
+    img{
+        margin-top: 0%;
+        float: left;
+        width: 100%;
+        margin-left: 0vh;
+      }
 
   }
   .row:after {
@@ -86,4 +92,66 @@ ol{
     font-size: 15px;
     line-height: 1;
 
+}
+
+@media (max-width: 768px) {
+    
+    .Encabezado {
+        backdrop-filter: blur(2px);
+        margin-top:17%;
+        color: black;
+        height: 10vh;
+        text-align: center;
+        width: 100%;
+    
+        h1 {
+            font-size: 50px;
+        }
+    
+        h2 {
+            font-size: 17px;
+            font-weight: 400;
+        }
+    }
+    .row{
+        margin-top: 6%;
+        width: 100%;
+        height:60%;
+    }
+    .column1a {
+        float: left;
+        width: 50%;
+        height: 100%; /* Should be removed. Only for demonstration */
+        color: black;
+        background-color: white;
+            img{
+                margin-top: 10%;
+                float: left;
+                width: 100%;
+                margin-left: 0vh;
+              }
+      }
+      .column1b{
+        background-color: transparent;
+        p.body{
+            margin-top:-1%;
+            padding: 0% 10%;
+            text-align: justify;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 1.4;
+        
+        }
+        ol{
+            text-justify:distribute-all-lines;
+            text-align:start;
+            font-size: 13px;
+            margin-top: 2.5%;
+            margin-left: 10%;
+        }
+      }
+      
+.footer{
+    margin-top: -40vh;
+}
 }

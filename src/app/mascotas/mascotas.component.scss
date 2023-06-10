@@ -1,25 +1,51 @@
+.Encabezado{
+    backdrop-filter: blur(2px);
+    margin-top: 9%;
+    color: black;
+    height: 0vh;
+    text-align: center;
+    width: 100%;
+    h1{
+        font-size: 60px;
+    }
+    h2
+    {
+        font-size: 17px;
+        font-weight: 400;
+    }
+}
+.column1a,.column1b {
+    float: left;
+    width: 50%;
+    height: 73vh; /* Should be removed. Only for demonstration */
+    color: black;
+    background-color: white;
+    h1{
+        margin-top: 5vh;
+    }
+    h3{
+        text-align: justify;
+    }
+
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
 .container{
     width: 100%;
     height: 75vh;
     flex-direction: row;
     display: flex;
+    margin-top:8%;
 }
 .nav{
     width: 100%;
 }
-.container2{
-    width: 50%;
-    height: 75vh;
-}
-.container3{
-    width: 50%;
-    height: 75vh;
-    .imagen{
-        width: 100%;
-        height: 75vh;
-        padding: 5vh 5vh;
-    }
-}
+
+
 .footer{
     margin-top: -6%;
 }
@@ -28,8 +54,6 @@ p{
     text-justify:distribute-all-lines;
     text-align: center;
     margin-top: 7vh; 
-    color: #008536;
-    padding: 0px 25px;
 }
 ol{
     text-justify:distribute-all-lines;
@@ -37,79 +61,89 @@ ol{
     font-size: 20px;
     margin-top: 2.5%;
     margin-left: 10%;
-    color: #008536;
+}
+p.Title{
+    margin-top: 3%;
+    margin-bottom: 0vh;
+    font-size: 30px;
+    font-weight: 700;
+    color: green;
+    text-align: center;
+
+}
+p.body{
+    padding: 0% 20%;
+    text-align: justify;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.5;
+
+}
+ol{
+    margin-left: 20%;
+    text-align: justify;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1;
+
 }
 
-
-
-.imgcontainer {
-    width: 100%;
-    height: 100%;
-    img{
-        width: 100%;
-    }
-    .letronas{
-        margin-top: -35%;
-        margin-bottom:20%;
-        margin-left: 47%;
-        width: 50%;
-        height: 30vh;
-        border: 2px solid red;
-        transition-duration: 0.4s;
-        label{
-            font-size: 300%;
-            font-weight: 500;
-            color: rgb(46, 46, 46);
-        }
-    }
-    .letronas:hover{
-        margin-left: 49%;
-
-        label{
-            font-size: 300%;
-            font-weight: 600;
-            color: rgb(46, 46, 46);
-        }
-    }
-}
-
-
-
-
-b{
-    color: #008536;
-}
-
-
-
-.cinta {
-    height: 13vh;
-    width: 100%;
-    background-color: #008536;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 12vh;
+@media (max-width: 768px) {
     
-  }
-  
-  .texto {
-    font-size: 25px;
-    font-weight: bold;
-    color: white;
-    margin-bottom: 1vh;
-  }
+    .Encabezado {
+        backdrop-filter: blur(2px);
+        margin-top:17%;
+        color: black;
+        height: 10vh;
+        text-align: center;
+        width: 100%;
+    
+        h1 {
+            font-size: 50px;
+        }
+    
+        h2 {
+            font-size: 17px;
+            font-weight: 400;
+        }
+    }
+    .row{
+        margin-top: 1%;
+        width: 100%;
+        height:60%;
+    }
+    .column1a {
+        float: left;
+        width: 50%;
+        height: 100%; /* Should be removed. Only for demonstration */
+        color: black;
+        background-color: white;
+            img{
+                float: left;
+                width: 100%;
+                margin-left: 0vh;
+              }
+      }
+      .column1b{
+        background-color: transparent;
+        p.body{
+            margin-top:-1%;
+            padding: 0% 10%;
+            text-align: justify;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 1.5;
+        
+        }
+        ol{
+            text-justify:distribute-all-lines;
+            text-align:start;
+            font-size: 13px;
+            margin-top: 2.5%;
+            margin-left: 10%;
+        }      }
 
-  .logo {
-    width: 100%;
-    height: 15vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .imgCoop{
-    width: 30%;
-    height: 90%;
-  }
-  
+      
+.footer{
+    margin-top: -40vh;
+}}
