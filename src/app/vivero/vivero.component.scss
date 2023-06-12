@@ -98,7 +98,7 @@ ol{
     
     .Encabezado {
         backdrop-filter: blur(2px);
-        margin-top:17%;
+        margin-top:25%;
         color: black;
         height: 10vh;
         text-align: center;
@@ -113,6 +113,10 @@ ol{
             font-weight: 400;
         }
     }
+    .container
+    {
+        margin-top: 20%;
+    }
     .row{
         margin-top: -3%;
         width: 100%;
@@ -124,7 +128,7 @@ ol{
         width: 49%;
         height: 100%; /* Should be removed. Only for demonstration */
         color: black;
-        background-color: white;
+        background-color: transparent;
             img{
                 margin-top: 0%;
                 float: left;
@@ -153,6 +157,6 @@ ol{
       }
       
 .footer{
-    margin-top: -40vh;
+    margin-top: -20%;
 }
 }

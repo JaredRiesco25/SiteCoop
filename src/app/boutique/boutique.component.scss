@@ -100,7 +100,7 @@ ol{
     
     .Encabezado {
         backdrop-filter: blur(2px);
-        margin-top:17%;
+        margin-top:25%;
         color: black;
         height: 10vh;
         text-align: center;
@@ -114,6 +114,10 @@ ol{
             font-size: 17px;
             font-weight: 400;
         }
+    }
+    .container
+    {
+        margin-top: 20%;
     }
     .row{
         margin-top: 0%;
@@ -155,6 +159,6 @@ ol{
       }
       
 .footer{
-    margin-top: -40vh;
+    margin-top: -25%;
 }
 }
