@@ -1,6 +1,6 @@
 .Encabezado{
     backdrop-filter: blur(2px);
-    margin-top: 4%;
+    margin-top: 7%;
     color: black;
     height: 0vh;
     text-align: center;
@@ -22,6 +22,7 @@
 .column1a,.column1b {
     float: left;
     width: 50%;
+    
     height: 73vh; /* Should be removed. Only for demonstration */
     color: black;
     background-color: white;
@@ -30,6 +31,12 @@
     }
     h3{
         text-align: justify;
+    }    
+    img{
+        max-width: 100%;
+        max-height: 100%;
+        display: block;
+        margin: auto;
     }
 
   }
